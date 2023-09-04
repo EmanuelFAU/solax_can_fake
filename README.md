@@ -4,7 +4,7 @@ based on ESP32 (Sparkfun thing plus) and two mcp2515 breakout boards, this code 
 Whith this, any sutable battery can be used with the solax x3 hybrid G4, as this inverter checks, if there is a solax battery connected.
 
 The mcp2515 is connected to spi and the following pins as CS:
-- MCP2515            ESP32
+- MCP2515       |||||     ESP32
 - CS CAN0     <---> GPIO 14
 - CS CAN1     <---> GPIO 21
 - INT CAN0    <---> GPIO 32
